@@ -2,6 +2,10 @@
 import React, { useEffect } from "react";
 import "./ImageComponent.css";
 import './UiandResponsive.css'
+
+import pic from '/assets/pic2.png'
+
+
 import { delay, motion } from "framer-motion"
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
@@ -41,7 +45,7 @@ function ImageComponent() {
           </defs>
 
         
-          <image className="foregroundImage" id="img-inside-svg" href="src/assets/pic2.png" width="519" height="729" clip-path="url(#clip-shape)" preserveAspectRatio="xMidYMid slic"/>
+          <image className="foregroundImage" id="img-inside-svg" href={pic} width="519" height="729" clip-path="url(#clip-shape)" preserveAspectRatio="xMidYMid slic"/>
         </svg>
 
 

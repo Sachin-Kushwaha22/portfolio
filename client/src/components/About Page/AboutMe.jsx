@@ -20,7 +20,7 @@ const AboutMe = () => {
       </div>
       <div className={styles.imageColumn}>
         <div className="img-bg">
-        <img src="src/assets/pic3.png" alt="" />
+        <img src="/assets/pic3.png" alt="" />
         </div>
       </div>
     </div>
