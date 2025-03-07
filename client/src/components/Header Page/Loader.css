@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.overlay-add{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+}
+.overlay-remove{
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bars{
+    width: .5vw;
+    height: 105vh;
+    background-color: rgb(255, 202, 28);
+}
+
+.counter{
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 100;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: "raleway";
+}
+.counter2{
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 100;
+    color: rgb(247, 201, 33);
+    font-size: 2rem;
+    font-family: "raleway";
+}

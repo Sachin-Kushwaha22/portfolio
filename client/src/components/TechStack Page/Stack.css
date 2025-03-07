@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('../../assets/fonts/FuturoIncierto.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CustomFont2';
+    src: url('../../assets/fonts/Mochica_PERSONAL_USE_ONLY.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CustomFont3';
+    src: url('../../assets/fonts/Oakside.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.stack-page {
+    padding: 20px 0;
+    /* height: 100vh; */
+}
+
+.stack-box {
+    width: 100%;
+
+    color: rgb(33, 32, 32);
+    background-color: rgb(255, 255, 255);
+}
+
+.stack-box-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.stack-box-heading {
+    width: 100%;
+    font-size: 2.2rem;
+}
+.stack-box-heading h1{
+    font-family: 'CustomFont2', sans-serif;
+}
+
+.logo-slide {
+    width: 100%;
+    margin: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logo-slide:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 150px;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+
+    content: "";
+    z-index: 100;
+}
+.logo-slide:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 150px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+
+    content: "";
+    z-index: 100;
+}
+
+.logo-slide:hover .slider {
+    animation-play-state: paused;
+}
+
+.slider {
+    margin-top: 20px;
+    display: inline-block;
+    animation: 10s slider infinite linear;
+}
+
+.slider>img {
+    width: 100px;
+    margin: 0px 30px;
+}
+
+#logo-img1{
+    width: 80px;
+    /* margin: 0; */
+}
+#logo-img2{
+    width: 110px;
+}
+
+@keyframes slider {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}

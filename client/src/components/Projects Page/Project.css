@@ -1,0 +1,145 @@
+.project-div{
+    z-index: 1;
+    color: white;
+    background-color: rgb(36, 34, 34);
+    padding: 60px 100px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.project-inner-div-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-inner-div-heading > h1{
+    font-size: 5rem;
+    color: white;   
+}
+.project-inner-div-heading > p{
+    margin-top: 60px;
+    font-size: 1.1rem;
+    color: white; 
+    max-width: 350px;  
+    text-align: right;
+}
+
+.project-boxes-1-layer{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-box-1{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height:800px;
+}
+/* .project-box-1-text>h1{
+    transition: .3s;
+}
+
+.project-box-1:hover .project-box-1-text>h1{
+    text-decoration: underline;
+    transition: .3s;
+} */
+
+.project-box-1-text>h1 {
+    position: relative; /* Add this */
+    transition: .3s;
+  }
+  
+  .project-box-1:hover .project-box-1-text>h1 {
+    text-decoration: none;
+  }
+  
+  .project-box-1-text>h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    border-radius: 100px;
+    background-color: greenyellow;
+    transition: width .3s; /* Add this */
+  }
+  
+  .project-box-1:hover .project-box-1-text>h1::after {
+    width: 34%; 
+  }
+
+@keyframes underline {
+    from{
+        text-decoration: underline;
+        text-underline-offset:1px;
+    }
+    to{
+
+    }
+}
+
+.project-box-1-profile{
+    position:relative;
+    margin: 10px 0;
+    width: 100%;
+    height: 70%;
+    background-color: #6d6b6b;
+    border-radius: 30px;
+}
+
+.project-1-a{
+    color: white !important;
+    text-decoration: none !important;
+    border: solid white 1.9px;
+    border-radius: 100px;
+    padding: 10px 25px;
+    font-weight: bold;
+    background-color: #a49d9d00;
+}
+
+.project-1-a-visit{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.project-1-a-github{
+    position: absolute;
+    bottom: 20px;
+    left: 130px;
+}
+.project-1-a-arrow{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 12px !important;
+    transition: .5s;
+}
+
+.project-1-a:hover{
+    background-color: #ffffff53;
+}
+
+.project-box-1-text{
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.project-box-1-text>p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.project-box-2{
+    margin-top: 70px;
+}
+
+.layer-3{
+    justify-content: center;
+}
+
+.layer-3-box{
+    width: 900px;
+}
