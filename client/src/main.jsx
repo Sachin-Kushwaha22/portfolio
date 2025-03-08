@@ -5,6 +5,7 @@ import AboutSection from './components/About Page/AboutSection'
 import Stack from './components/TechStack Page/Stack.jsx'
 // import Loader from './components/Header Page/Loader.jsx'
 import Project from './components/Projects Page/Project.jsx'
+import SwitchTheme from './components/Header Page/SwitchTheme.jsx'
 
 import './index.css'
 
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
     >
 
       {/* <Loader /> */}
+      <SwitchTheme />
       <Header />
       <Project />
       <Stack />

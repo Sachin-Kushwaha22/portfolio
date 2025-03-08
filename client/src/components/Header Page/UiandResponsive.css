@@ -12,6 +12,8 @@
 [data-theme="theme0"] {
     --primary-bg: #ffffff;
     --svg-fill: #ffdd1e;
+    --theme-logo-fill:#988204;
+    --stack-heading:#242320;
     --primary-text: #343232;
     --accent-color: #121212;
     --secondary-bg: #f5f5f5;
@@ -21,6 +23,8 @@
 [data-theme="theme1"] {
     --primary-bg: #efdfbb;
     --svg-fill: #722f37;
+    --theme-logo-fill:#722f37;
+    --stack-heading:#722f37;
     --primary-text: #292727;
     --accent-color: #ffffff;
     --secondary-bg: #f5f5f5;
@@ -30,6 +34,8 @@
 [data-theme="theme2"] {
     --primary-bg: #c9c7ba;
     --svg-fill: #29292b;
+    --theme-logo-fill:#29292b;
+    --stack-heading: #29292b;
     --primary-text: #29292b;
     --accent-color: #ffffff;
     --secondary-bg: #1976d2;
@@ -39,6 +45,8 @@
 [data-theme="theme3"] {
     --primary-bg: #fbf7ba;
     --svg-fill: #5caa2f;
+    --theme-logo-fill:#5caa2f;
+    --stack-heading:#5caa2f;
     --primary-text: #343232;
     --accent-color: #ffffff;
     --secondary-bg: #388e3c;
@@ -48,6 +56,8 @@
 [data-theme="theme4"] {
     --primary-bg: #f9f9f9;
     --svg-fill: #b5b25c;
+    --theme-logo-fill:#5e5d2b;
+    --stack-heading:#6d6b30;
     --primary-text: #2e2b2b;
     --accent-color: #1c1b1b;
     --secondary-bg: #e64a19;
@@ -57,6 +67,8 @@
 [data-theme="theme5"] {
     --primary-bg: #f4efca;
     --svg-fill: #f66435;
+    --theme-logo-fill:#f66435;
+    --stack-heading:#f66435;
     --primary-text: #3b3737;
     --accent-color: #ffffff;
     --secondary-bg: #7B1FA2;
@@ -67,13 +79,15 @@
 #theme-btn{
     position: fixed;
     bottom: 0;
-    right: 0;
-    width: 40px;
-    height: 40px;
+    left: 0;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
-    margin: 10px;
-    background-color: #5eff00;
-    z-index: 100;
+    margin: 20px;
+    fill: var(--theme-logo-fill);
+    /* background-color: #5eff00; */
+    z-index: 2;
+    cursor: pointer;
 }
 
 .bgc{
@@ -84,6 +98,8 @@
 .pic-svg-color{
     fill: var(--svg-fill);
     transition:600ms;
+    width: 110% !important;
+    height: 110% !important;
 }
 
 .logo{
@@ -119,4 +135,9 @@
 
 #aboutSection{
     background-color: var(--primary-bg) !important;
+}
+
+.stack-box-heading h1{
+    color: var(--stack-heading) !important;
+    transition: 600ms;
 }

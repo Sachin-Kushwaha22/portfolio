@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import "./Header.css";
 import './UiandResponsive.css'
+import './ResponsiveHero.css'
 // import Loader from "./Loader.jsx";
 import ImageComponent from "./ImageComponent.jsx";
 import Intro from "./Intro.jsx";
@@ -52,7 +53,7 @@ function Header() {
           </nav> */}
         </motion.header>
         <Intro />
-        <SwitchTheme />
+        {/* <SwitchTheme /> */}
       </div>
     </div>
   );
