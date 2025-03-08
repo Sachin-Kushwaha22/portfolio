@@ -1,44 +1,66 @@
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* For all browsers */
+  html, body {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
 
+[data-theme="theme0"] {
+    --primary-bg: #ffffff;
+    --svg-fill: #ffdd1e;
+    --primary-text: #343232;
+    --accent-color: #121212;
+    --secondary-bg: #f5f5f5;
+    --secondary-text: #454141;
+}
 
 [data-theme="theme1"] {
-    --primary-bg: #fbf7ba;
-    --svg-fill: #9d1f15;
-    --primary-text: #000000;
-    --accent-color: #fdd835;
+    --primary-bg: #efdfbb;
+    --svg-fill: #722f37;
+    --primary-text: #292727;
+    --accent-color: #ffffff;
     --secondary-bg: #f5f5f5;
-    --secondary-text: #444;
+    --secondary-text: #3f3d3d;
 }
 
 [data-theme="theme2"] {
-    --primary-bg: #2196F3;
-    --primary-text: #ffffff;
-    --accent-color: #ffeb3b;
+    --primary-bg: #c9c7ba;
+    --svg-fill: #29292b;
+    --primary-text: #29292b;
+    --accent-color: #ffffff;
     --secondary-bg: #1976d2;
-    --secondary-text: #eeeeee;
+    --secondary-text: #312e2e;
 }
 
 [data-theme="theme3"] {
-    --primary-bg: #4CAF50;
-    --primary-text: #ffffff;
-    --accent-color: #ff9800;
+    --primary-bg: #fbf7ba;
+    --svg-fill: #5caa2f;
+    --primary-text: #343232;
+    --accent-color: #ffffff;
     --secondary-bg: #388e3c;
-    --secondary-text: #cccccc;
+    --secondary-text: #555555;
 }
 
 [data-theme="theme4"] {
-    --primary-bg: #ff5722;
-    --primary-text: #ffffff;
-    --accent-color: #8bc34a;
+    --primary-bg: #f9f9f9;
+    --svg-fill: #b5b25c;
+    --primary-text: #2e2b2b;
+    --accent-color: #1c1b1b;
     --secondary-bg: #e64a19;
-    --secondary-text: #dddddd;
+    --secondary-text: #292727;
 }
 
 [data-theme="theme5"] {
-    --primary-bg: #9C27B0;
-    --primary-text: #ffffff;
-    --accent-color: #03A9F4;
+    --primary-bg: #f4efca;
+    --svg-fill: #f66435;
+    --primary-text: #3b3737;
+    --accent-color: #ffffff;
     --secondary-bg: #7B1FA2;
-    --secondary-text: #cccccc;
+    --secondary-text: #3a3737;
 }
 
 
@@ -52,4 +74,49 @@
     margin: 10px;
     background-color: #5eff00;
     z-index: 100;
+}
+
+.bgc{
+    background-color: var(--primary-bg);
+    transition:600ms;
+}
+
+.pic-svg-color{
+    fill: var(--svg-fill);
+    transition:600ms;
+}
+
+.logo{
+    color: var(--primary-text);
+    transition:600ms;
+}
+
+.intro-box h1{
+    color: var(--primary-text) !important;
+    transition:600ms;
+}
+
+.intro-box h4{
+    color: var(--svg-fill) !important;
+    transition:600ms;
+}
+
+.intro-box p{
+    color: var(--secondary-text) !important;
+    transition:600ms;
+}
+
+#projects-btn{
+    background-color: var(--svg-fill) !important;
+    color: var(--accent-color) !important;
+    transition:600ms;
+}
+
+.img-bg{
+    background-color: var(--svg-fill) !important;
+    transition: 600ms;
+}
+
+#aboutSection{
+    background-color: var(--primary-bg) !important;
 }

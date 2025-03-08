@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 
-const themes = ["theme1", "theme2", "theme3", "theme4", "theme5"];
+const themes = ["theme0","theme1", "theme2", "theme3", "theme4", "theme5"];
 
 const ThemeSwitcher = () => {
     const [themeIndex, setThemeIndex] = useState(0);
 
     // Set default theme when page loads
     useEffect(() => {
-        const savedTheme = localStorage.getItem("theme") || "theme1";
+        const savedTheme = localStorage.getItem("theme") || "theme0";
         document.documentElement.setAttribute("data-theme", savedTheme);
         setThemeIndex(themes.indexOf(savedTheme));
     }, []);

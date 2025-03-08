@@ -36,7 +36,7 @@ function Header() {
             <a className='logo'>Sachin Kushwaha</a>
           </Magnet>
 
-          <nav className='nav'>
+          {/* <nav className='nav'>
             <Magnet padding={20} disabled={false} magnetStrength={2}>
               <a className="a-tag" href="/about">About</a>
             </Magnet>
@@ -49,7 +49,7 @@ function Header() {
 
 
 
-          </nav>
+          </nav> */}
         </motion.header>
         <Intro />
         <SwitchTheme />

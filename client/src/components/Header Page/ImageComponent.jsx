@@ -14,7 +14,7 @@ gsap.registerPlugin(useGSAP);
 function ImageComponent() {
   useEffect(() => {
     gsap.to('.imageWrapper', 1.5, {
-      delay: 3,
+      delay: 0,
       autoAlpha: 1,
       x: 0,
       stagger: {
@@ -34,8 +34,8 @@ function ImageComponent() {
           alt=""
         /> */}
 
-        <svg className='backgroundImage' xmlns="http://www.w3.org/2000/svg" width="819" height="699" viewBox="0 0 719 629" >
-        <rect viewBox="0 0 819 699" width="839" height="699" fill="yellow" clipPath="url(#clip-shape)" />
+        <svg className='backgroundImage' xmlns="http://www.w3.org/2000/svg" width="819" height="699" viewBox="0 0 700 629" >
+        <rect className="pic-svg-color" viewBox="0 0 839 699" width="839" height="699" fill="yellow" clipPath="url(#clip-shape)" />
           <defs>
             <clipPath id="clip-shape">
               <path fill-rule="evenodd" clip-rule="evenodd"

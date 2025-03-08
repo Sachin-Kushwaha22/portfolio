@@ -115,7 +115,7 @@ function Project() {
 
                             <a href="" className='project-1-a project-1-a-visit'>Visit</a>
                             <a href="" className='project-1-a project-1-a-github'>GitHub Code</a>
-                            <a href="" className='project-1-a project-1-a-arrow'><img src="src/assets/arrow.png" width='15px' /></a>
+                            <a href="" className='project-1-a project-1-a-arrow'><img src="/assets/arrow.png" width='15px' /></a>
 
                         </div>
                         <div className="project-box-1-text">
@@ -129,7 +129,7 @@ function Project() {
 
                             <a href="" className='project-1-a project-1-a-visit'>Visit</a>
                             <a href="" className='project-1-a project-1-a-github'>GitHub Code</a>
-                            <a href="" className='project-1-a project-1-a-arrow'><img src="src/assets/arrow.png" width='15px' /></a>
+                            <a href="" className='project-1-a project-1-a-arrow'><img src="/assets/arrow.png" width='15px' /></a>
 
                         </div>
                         <div className="project-box-1-text">
@@ -145,7 +145,7 @@ function Project() {
 
                             <a href="" className='project-1-a project-1-a-visit'>Visit</a>
                             <a href="" className='project-1-a project-1-a-github'>GitHub Code</a>
-                            <a href="" className='project-1-a project-1-a-arrow'><img src="src/assets/arrow.png" width='15px' /></a>
+                            <a href="" className='project-1-a project-1-a-arrow'><img src="/assets/arrow.png" width='15px' /></a>
 
                         </div>
                         <div className="project-box-1-text">
@@ -159,7 +159,7 @@ function Project() {
 
                             <a href="" className='project-1-a project-1-a-visit'>Visit</a>
                             <a href="" className='project-1-a project-1-a-github'>GitHub Code</a>
-                            <a href="" className='project-1-a project-1-a-arrow'><img src="src/assets/arrow.png" width='15px' /></a>
+                            <a href="" className='project-1-a project-1-a-arrow'><img src="/assets/arrow.png" width='15px' /></a>
 
                         </div>
                         <div className="project-box-1-text">
@@ -175,7 +175,7 @@ function Project() {
 
                             <a href="" style={{ color: 'white' }} className='project-1-a project-1-a-visit'>Visit</a>
                             <a href="" className='project-1-a project-1-a-github'>GitHub Code</a>
-                            <a href="" className='project-1-a project-1-a-arrow'><img src="src/assets/arrow.png" width='15px' /></a>
+                            <a href="" className='project-1-a project-1-a-arrow'><img src="/assets/arrow.png" width='15px' /></a>
 
                         </div>
                         <div className="project-box-1-text">
