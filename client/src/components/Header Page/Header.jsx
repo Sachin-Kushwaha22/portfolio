@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import "./Header.css";
 import './UiandResponsive.css'
+import './ResponsiveHero.css'
 // import Loader from "./Loader.jsx";
 import ImageComponent from "./ImageComponent.jsx";
 import Intro from "./Intro.jsx";
@@ -36,7 +37,7 @@ function Header() {
             <a className='logo'>Sachin Kushwaha</a>
           </Magnet>
 
-          <nav className='nav'>
+          {/* <nav className='nav'>
             <Magnet padding={20} disabled={false} magnetStrength={2}>
               <a className="a-tag" href="/about">About</a>
             </Magnet>
@@ -49,10 +50,10 @@ function Header() {
 
 
 
-          </nav>
+          </nav> */}
         </motion.header>
         <Intro />
-        <SwitchTheme />
+        {/* <SwitchTheme /> */}
       </div>
     </div>
   );

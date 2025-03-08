@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import "./ImageComponent.css";
 import './UiandResponsive.css'
-
+import './ResponsiveHero.css'
 import pic from '/assets/pic2.png'
 
 
@@ -14,7 +14,7 @@ gsap.registerPlugin(useGSAP);
 function ImageComponent() {
   useEffect(() => {
     gsap.to('.imageWrapper', 1.5, {
-      delay: 3,
+      delay: 0,
       autoAlpha: 1,
       x: 0,
       stagger: {
@@ -34,8 +34,8 @@ function ImageComponent() {
           alt=""
         /> */}
 
-        <svg className='backgroundImage' xmlns="http://www.w3.org/2000/svg" width="819" height="699" viewBox="0 0 719 629" >
-        <rect viewBox="0 0 819 699" width="839" height="699" fill="yellow" clipPath="url(#clip-shape)" />
+        <svg className='backgroundImage' xmlns="http://www.w3.org/2000/svg" width="819" height="699" viewBox="0 0 700 750" >
+        <rect className="pic-svg-color"  fill="yellow" clipPath="url(#clip-shape)" />
           <defs>
             <clipPath id="clip-shape">
               <path fill-rule="evenodd" clip-rule="evenodd"
@@ -43,7 +43,6 @@ function ImageComponent() {
                 fill="#FDC435" />
             </clipPath>
           </defs>
-
         
           <image className="foregroundImage" id="img-inside-svg" href={pic} width="519" height="729" clip-path="url(#clip-shape)" preserveAspectRatio="xMidYMid slic"/>
         </svg>

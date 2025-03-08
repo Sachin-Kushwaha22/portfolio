@@ -8,7 +8,7 @@ import SocialFooter from "./SocialFooter";
 
 const AboutSection = () => {
   return (
-    <section className={styles.aboutSection}>
+    <section id="aboutSection" className={styles.aboutSection}>
       <div className={styles.container}>
         <main className={styles.mainContent}>
           <AboutMe />

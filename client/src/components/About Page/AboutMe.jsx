@@ -4,6 +4,7 @@
 import React from "react";
 import styles from "./AboutSection.module.css";
 import './AboutSection.css'
+import '../Header Page/UiandResponsive.css'
 
 const AboutMe = () => {
   return (

@@ -1,0 +1,41 @@
+@media (max-width: 320px) {
+    .logo {
+        font-size: 1.4rem !important;
+    }
+
+    .header {
+        padding: 5px 10px !important;
+    }
+
+    .imageWrapper {
+        height: 50vh !important;
+    }
+
+    .backgroundImage {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .intro-box {
+        height: 50vh !important;
+        margin: 10px !important;
+        margin-top: 40vh !important;
+    }
+
+    .intro-box > h4 {
+        font-size: 1rem !important;  
+        margin: 5px 0 !important;
+    }
+
+    .intro-box>h1 {
+        font-size: 1.8rem !important;
+        color: #2f2c2c;
+    }
+
+    .intro-box>p {
+        font-size: .9rem !important;
+        margin: 5px 10px !important;
+        line-height: 1.5;
+        text-align: justify;
+    }
+}
