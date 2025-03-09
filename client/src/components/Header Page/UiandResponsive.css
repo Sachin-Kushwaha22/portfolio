@@ -90,7 +90,7 @@
     cursor: pointer;
 }
 
-.bgc{
+.hero-page{
     background-color: var(--primary-bg);
     transition:600ms;
 }

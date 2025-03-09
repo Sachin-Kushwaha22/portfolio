@@ -14,7 +14,7 @@ gsap.registerPlugin(useGSAP);
 function ImageComponent() {
   useEffect(() => {
     gsap.to('.imageWrapper', 1.5, {
-      delay: 0,
+      delay: 3,
       autoAlpha: 1,
       x: 0,
       stagger: {
@@ -26,7 +26,6 @@ function ImageComponent() {
 
   return (
     <motion.section initial={{ autoAlpha: 0, x: 1000 }} className='imageWrapper'>
-      <div className='yellowBackground'>
         {/* <img
           
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/fb7fc9cde72e21b0a565ac70250416a1d5c97bf05da19f1d669f4b2c3be29040?placeholderIfAbsent=true&apiKey=0991894ae257472b9533e960c0523594"
@@ -34,8 +33,8 @@ function ImageComponent() {
           alt=""
         /> */}
 
-        <svg className='backgroundImage' xmlns="http://www.w3.org/2000/svg" width="819" height="699" viewBox="0 0 700 750" >
-        <rect className="pic-svg-color"  fill="yellow" clipPath="url(#clip-shape)" />
+        <svg className='main-svg' xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 700 650" >
+        <rect className="pic-svg-color" viewBox="0 0 700 650" fill="yellow" clipPath="url(#clip-shape)" />
           <defs>
             <clipPath id="clip-shape">
               <path fill-rule="evenodd" clip-rule="evenodd"
@@ -47,8 +46,6 @@ function ImageComponent() {
           <image className="foregroundImage" id="img-inside-svg" href={pic} width="519" height="729" clip-path="url(#clip-shape)" preserveAspectRatio="xMidYMid slic"/>
         </svg>
 
-
-      </div>
     </motion.section>
   );
 }

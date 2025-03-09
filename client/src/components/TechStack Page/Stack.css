@@ -111,3 +111,23 @@
         transform: translateX(-50%);
     }
 }
+
+
+
+
+
+
+/* responsive box */
+
+@media (max-width: 320px){
+    .stack-page{
+        height: 100vh !important;
+        width: 100vw;
+
+    }
+
+    .stack-box-heading {
+        width: 100%;
+        font-size: 5vw;
+    }
+}

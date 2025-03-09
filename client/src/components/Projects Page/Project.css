@@ -53,6 +53,7 @@
 .project-box-1-text>h1 {
     position: relative; /* Add this */
     transition: .3s;
+    display: inline-block;
   }
   
   .project-box-1:hover .project-box-1-text>h1 {
@@ -69,10 +70,13 @@
     border-radius: 100px;
     background-color: greenyellow;
     transition: width .3s; /* Add this */
+    transform: scaleX(0);
+    transform-origin: left;
   }
   
   .project-box-1:hover .project-box-1-text>h1::after {
-    width: 34%; 
+    transform: scaleX(1);
+    width: 100% !important;
   }
 
 @keyframes underline {
@@ -118,7 +122,7 @@
     position: absolute;
     bottom: 20px;
     right: 20px;
-    padding: 10px 12px !important;
+    padding: 10px 12px;
     transition: .5s;
 }
 
@@ -146,4 +150,111 @@
 
 .layer-3-box{
     width: 900px;
+}
+
+
+
+/* Responsive css */
+@media (max-width: 320px) {
+    .project-div{
+        width: 100vw !important;
+        padding: 0;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        /* border-radius: 10px; */
+    }
+    .project-inner-div-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .project-inner-div-heading > h1{
+        width: 100%;
+        font-size: 20vw !important;
+        color: white;   
+    }
+    .project-inner-div-heading > p{
+        padding:0 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 6vw;
+        /* max-width: 350px;   */
+        text-align: right;
+    }
+
+    .project-boxes-1-layer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box-1{
+        margin-top: 20px;
+        width: 98vw !important;
+        height: 550px;
+        padding:0 10px;
+        background-color: rgba(57, 57, 57, 0.162);
+        border-radius: 20px;
+        border: none;
+        outline:solid 1px rgb(92, 91, 91);
+    }
+    .project-box-1-profile{
+        border-radius: 20px;
+
+    }
+
+    .project-1-a{
+        font-size: .7rem !important;
+        padding: 7px 15px !important;
+    }
+
+    .project-1-a-visit{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .project-1-a-github{
+        position: absolute;
+        bottom: 20px;
+        left: 80px;
+    }
+    .project-1-a-arrow{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 12px;
+        transition: .5s;
+    }
+
+    .project-box-1-text h1{
+        font-size: 10vw;
+        display: flex;
+        justify-self: center;
+    }
+    .project-box-1-text p{
+        font-size: 6vw;
+        text-align: justify;
+    }
+}
+
+@media (max-width:270px){
+    .project-1-a{
+        font-size: .7rem !important;
+        padding: 7px 10px !important;
+    }
+
+    .project-1-a-visit{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .project-1-a-github{
+        position: absolute;
+        bottom: 20px;
+        left: 70px;
+    }
+    .project-1-a-arrow{
+        position: absolute;
+        bottom: 19px;
+        right: 20px;
+        transition: .5s;
+    }
 }

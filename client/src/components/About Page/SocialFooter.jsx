@@ -7,8 +7,8 @@ import './AboutSection.css'
 
 const SocialFooter = () => {
   return (
-    <footer className='social-svg-div'>
-      <div className='social-svg'>
+    <footer id={styles.socialSvgDiv} className='social-svg-div'>
+      <div id={styles.socialSvg} className='social-svg'>
 
         <a href="https://www.instagram.com/itz_sachinn/" target="_blank">
           <svg id="svg-social" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
