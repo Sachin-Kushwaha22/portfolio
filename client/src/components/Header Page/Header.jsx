@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import "./Header.css";
 import './UiandResponsive.css'
 import './ResponsiveHero.css'
+import './ImageComponent.css'
 // import Loader from "./Loader.jsx";
 import ImageComponent from "./ImageComponent.jsx";
 import Intro from "./Intro.jsx";
@@ -26,8 +27,10 @@ function Header() {
     })
   }, [])
   return (
-    <div >
-      <ImageComponent />
+    <div className="hero-page">
+      <div className="image-div">
+        <ImageComponent />
+      </div>
       <div style={{ height: '100vh', maxHeight: '100vh' }} className="bgc">
         <motion.header initial={{ opacity: 0, y: -100 }} className='header'>
 

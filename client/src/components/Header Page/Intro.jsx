@@ -41,10 +41,11 @@ function Intro() {
             <motion.div initial={{ opacity: 0, x: -900 }} className='intro-box'>
                 
                 <h4 >FRONT-END DEVELOPER</h4>
-                <motion.h1 initial='hidden' animate='show' variants={fadeInUpAnimation}>Hello, my name is Sachin Kushwaha.</motion.h1>
+                <motion.h1 initial='hidden' animate='show' variants={fadeInUpAnimation}>Hello, my name is <br /> Sachin Kushwaha.</motion.h1>
                 
                 <p>I’m a web developer who loves building websites that are easy to use and look great. I’m always learning and experimenting with new technologies to improve my skills and create even better projects. Looking to leverage my skills and knowledge in a challenging role to contribute to impactful projects.</p>
 
+                <div className='hero-btns'>
                 <Magnet padding={30} disabled={false} magnetStrength={2}>
                     <button id='projects-btn' onClick={(e) => {
                         e.preventDefault();
@@ -58,6 +59,7 @@ function Intro() {
                         window.open('https://www.linkedin.com/in/sachin-kushwaha-245055258/')
                     }}>LinkedIn</button>
                 </Magnet>
+                </div>
             </motion.div>
 
             {/* <div className="social-handler">

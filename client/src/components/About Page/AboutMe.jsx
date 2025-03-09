@@ -4,6 +4,7 @@
 import React from "react";
 import styles from "./AboutSection.module.css";
 import './AboutSection.css'
+import './ResponsiveAboutPage.css'
 import '../Header Page/UiandResponsive.css'
 
 const AboutMe = () => {
@@ -13,16 +14,17 @@ const AboutMe = () => {
         <article className={styles.aboutMe}>
           <h2 className={styles.title}>About me</h2>
           <p className={styles.description}>
-            👋 Hey, I'm Sachin!<br></br>
+            <strong className={styles.heySachin}>👋 Hey, I'm Sachin!</strong><br/>
             I'm a full-stack web developer passionate about building scalable, high-performance applications. With hands-on experience in the MERN stack, PostgreSQL, and MongoDB, I specialize in crafting secure, optimized, and user-friendly web solutions.
           </p>
-          <button className="resume-btn" id="projects-btn">Resume</button>
+          <button className={styles.resumeBtn} id="projects-btn">Resume</button>
         </article>
       </div>
       <div className={styles.imageColumn}>
         <div className="img-bg">
         <img src="/assets/pic3.png" alt="" />
         </div>
+        <button className={styles.resumeBtn2} id="projects-btn">Resume</button>
       </div>
     </div>
   );
