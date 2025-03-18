@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import "./Header.css";
 import './UiandResponsive.css'
 import './ResponsiveHero.css'
+import './tablet.css'
 import './ImageComponent.css'
 // import Loader from "./Loader.jsx";
 import ImageComponent from "./ImageComponent.jsx";

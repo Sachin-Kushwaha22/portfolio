@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import "./ImageComponent.css";
 import './UiandResponsive.css'
+import './tablet.css'
 import './ResponsiveHero.css'
 import pic from '/assets/pic2.png'
 
