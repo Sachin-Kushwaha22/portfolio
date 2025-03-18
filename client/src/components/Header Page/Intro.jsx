@@ -3,6 +3,7 @@ import { delay, motion } from "framer-motion"
 import './Intro.css'
 import './UiandResponsive.css'
 import './ResponsiveHero.css'
+import './tablet.css'
 import gsap from "gsap"
 import Magnet from '../../ReactBits/Magnet.jsx'
 import { TypeAnimation } from 'react-type-animation';

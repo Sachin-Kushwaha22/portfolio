@@ -25,7 +25,6 @@
     margin-top: 60px;
     font-size: 1.1rem;
     color: white; 
-    max-width: 350px;  
     text-align: right;
 }
 
@@ -155,6 +154,767 @@
 
 
 /* Responsive css */
+
+@media (max-width: 1570px) {
+    .project-div{
+        width: 100vw !important;
+        padding: 10px ;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        /* border-radius: 10px; */
+    }
+    .project-inner-div-heading{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .project-inner-div-heading > h1{
+        /* width: 100%; */
+        font-size: 7vw !important;
+        color: white;   
+    }
+    .project-inner-div-heading > p{
+        padding:0 10px;
+        margin-top: 7vw;
+        margin-bottom: 20px;
+        font-size: 1.5vw;
+        width: 350px !important;  
+        text-align: right;
+    }
+
+    .project-boxes-1-layer{
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: space-around;
+    }
+    .project-box-1{
+        margin-top: 20px;
+        width: 45% !important;
+        height: fit-content;
+        padding:0 10px;
+        background-color: rgba(57, 57, 57, 0.162);
+        border-radius: 20px;
+        border: none;
+        outline:solid 1px rgb(92, 91, 91);
+    }
+    .project-box-1-profile{
+        border-radius: 20px;
+        height: 500px !important;
+    } 
+
+    .project-1-a{
+        font-size: 1rem !important;
+        padding: 7px 20px !important;
+    }
+
+    .project-1-a-visit{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .project-1-a-github{
+        position: absolute;
+        bottom: 20px;
+        left: 110px;
+    }
+    .project-1-a-arrow{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 12px;
+        transition: .5s;
+    }
+    .project-1-a-arrow img{
+        width: 20px !important;
+    }
+    .project-box-1-text h1{
+        font-size: 2.3vw;
+        display: flex;
+        
+        justify-self: flex-start;
+    }
+    .project-box-1-text p{
+        font-size: 1.5vw;
+        text-align: justify;
+    }
+
+    .project-box-2{
+        margin-top: 100px;
+    }
+    .layer-3-box{
+        margin-top: 50px ;
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 1440px) {
+    .project-div{
+        width: 100vw !important;
+        padding: 10px ;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        /* border-radius: 10px; */
+    }
+    .project-inner-div{
+        width: 95%;
+        padding: 30px 0;
+        justify-self: center;
+    }
+    .project-inner-div-heading{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .project-inner-div-heading > h1{
+        /* width: 100%; */
+        font-size: 7vw !important;
+        color: white;   
+    }
+    .project-inner-div-heading > p{
+        padding:0 10px;
+        margin-top: 7vw;
+        margin-bottom: 20px;
+        font-size: 1.5vw;
+        width: 350px !important;  
+        text-align: right;
+    }
+
+    .project-boxes-1-layer{
+        flex-direction: row;
+        width: 100%;
+        /* align-items: center; */
+        justify-content: space-around;
+    }
+    .project-box-1{
+        margin-top: 20px;
+        /* width: 50% !important; */
+        height: fit-content;
+        padding:0 10px;
+        background-color: rgba(57, 57, 57, 0.162);
+        border-radius: 20px;
+        border: none;
+        outline:solid 1px rgb(92, 91, 91);
+    }
+    .project-box-1-profile{
+        border-radius: 20px;
+        height: 500px !important;
+    } 
+
+    .project-1-a{
+        font-size: 1rem !important;
+        padding: 7px 20px !important;
+    }
+
+    .project-1-a-visit{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .project-1-a-github{
+        position: absolute;
+        bottom: 20px;
+        left: 110px;
+    }
+    .project-1-a-arrow{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 12px;
+        transition: .5s;
+    }
+    .project-1-a-arrow img{
+        width: 20px !important;
+    }
+    .project-box-1-text h1{
+        font-size: 2.3vw;
+        display: flex;
+        
+        justify-self: flex-start;
+    }
+    .project-box-1-text p{
+        font-size: 1.5vw;
+        text-align: justify;
+    }
+
+    .project-box-2{
+        margin-top: 100px;
+    }
+    .layer-3-box{
+        margin-top: 50px ;
+        width: 70% !important;
+    }
+}
+
+
+@media (max-width: 1280px) and (min-height:2560px) {
+    .project-div{
+        width: 100vw !important;
+        padding: 0;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        /* border-radius: 10px; */
+    }
+    .project-inner-div-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .project-inner-div-heading > h1{
+        width: 100%;
+        font-size: 20vw !important;
+        color: white;   
+    }
+    .project-inner-div-heading > p{
+        padding:0 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 6vw;
+        width: 90% !important;  
+        text-align: right;
+    }
+
+    .project-boxes-1-layer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box-1{
+        margin-top: 20px;
+        width: 98vw !important;
+        height: auto;
+        padding:0 10px;
+        background-color: rgba(57, 57, 57, 0.162);
+        border-radius: 20px;
+        border: none;
+        outline:solid 1px rgb(92, 91, 91);
+    }
+    .project-box-1-profile{
+        border-radius: 20px;
+        height: 1000px !important;
+    } 
+
+    .project-1-a{
+        font-size: 3rem !important;
+        padding: 20px 50px !important;
+    }
+
+    .project-1-a-visit{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .project-1-a-github{
+        position: absolute;
+        bottom: 20px;
+        left: 250px;
+    }
+    .project-1-a-arrow{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 12px;
+        transition: .5s;
+    }
+    .project-1-a-arrow img{
+        width: 50px !important;
+    }
+    .project-box-1-text h1{
+        font-size: 10vw;
+        display: flex;
+        justify-self: center;
+    }
+    .project-box-1-text p{
+        font-size: 6vw;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 1080px) {
+    .project-div{
+        width: 100vw !important;
+        padding: 0;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        /* border-radius: 10px; */
+    }
+    .project-inner-div-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .project-inner-div-heading > h1{
+        width: 100%;
+        font-size: 20vw !important;
+        color: white;   
+    }
+    .project-inner-div-heading > p{
+        padding:0 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 6vw;
+        width: 90% !important;  
+        text-align: right;
+    }
+
+    .project-boxes-1-layer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box-1{
+        margin-top: 20px;
+        width: 98vw !important;
+        height: auto;
+        padding:0 10px;
+        background-color: rgba(57, 57, 57, 0.162);
+        border-radius: 20px;
+        border: none;
+        outline:solid 1px rgb(92, 91, 91);
+    }
+    .project-box-1-profile{
+        border-radius: 20px;
+        height: 900px !important;
+    } 
+
+    .project-1-a{
+        font-size: 2.6rem !important;
+        padding: 20px 40px !important;
+    }
+
+    .project-1-a-visit{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .project-1-a-github{
+        position: absolute;
+        bottom: 20px;
+        left: 200px;
+    }
+    .project-1-a-arrow{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 12px;
+        transition: .5s;
+    }
+    .project-1-a-arrow img{
+        width: 40px !important;
+    }
+    .project-box-1-text h1{
+        font-size: 10vw;
+        display: flex;
+        justify-self: center;
+    }
+    .project-box-1-text p{
+        font-size: 6vw;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 800px) and (min-height: 1550px)  {
+    .project-div{
+        width: 100vw !important;
+        padding: 0;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        /* border-radius: 10px; */
+    }
+    .project-inner-div-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .project-inner-div-heading > h1{
+        width: 100%;
+        font-size: 20vw !important;
+        color: white;   
+    }
+    .project-inner-div-heading > p{
+        padding:0 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 6vw;
+        width: 90% !important;  
+        text-align: right;
+    }
+
+    .project-boxes-1-layer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box-1{
+        margin-top: 20px;
+        width: 98vw !important;
+        height: auto;
+        padding:0 10px;
+        background-color: rgba(57, 57, 57, 0.162);
+        border-radius: 20px;
+        border: none;
+        outline:solid 1px rgb(92, 91, 91);
+    }
+    .project-box-1-profile{
+        border-radius: 20px;
+        height: 600px !important;
+    } 
+
+    .project-1-a{
+        font-size: 1.8rem !important;
+        padding: 10px 25px !important;
+    }
+
+    .project-1-a-visit{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .project-1-a-github{
+        position: absolute;
+        bottom: 20px;
+        left: 160px;
+    }
+    .project-1-a-arrow{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 12px;
+        transition: .5s;
+    }
+    .project-1-a-arrow img{
+        width: 30px !important;
+    }
+    .project-box-1-text h1{
+        font-size: 10vw;
+        display: flex;
+        justify-self: center;
+    }
+    .project-box-1-text p{
+        font-size: 6vw;
+        text-align: justify;
+    }
+}
+@media (max-width: 600px) {
+    .project-div{
+        width: 100vw !important;
+        padding: 0;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        /* border-radius: 10px; */
+    }
+    .project-inner-div-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .project-inner-div-heading > h1{
+        width: 100%;
+        font-size: 20vw !important;
+        color: white;   
+    }
+    .project-inner-div-heading > p{
+        padding:0 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 6vw;
+        width: 90% !important;  
+        text-align: right;
+    }
+
+    .project-boxes-1-layer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box-1{
+        margin-top: 20px;
+        width: 98vw !important;
+        height: auto;
+        padding:0 10px;
+        background-color: rgba(57, 57, 57, 0.162);
+        border-radius: 20px;
+        border: none;
+        outline:solid 1px rgb(92, 91, 91);
+    }
+    .project-box-1-profile{
+        border-radius: 20px;
+        height: 450px !important;
+    } 
+
+    .project-1-a{
+        font-size: 1.4rem !important;
+        padding: 10px 25px !important;
+    }
+
+    .project-1-a-visit{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .project-1-a-github{
+        position: absolute;
+        bottom: 20px;
+        left: 130px;
+    }
+    .project-1-a-arrow{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 12px;
+        transition: .5s;
+    }
+
+    .project-box-1-text h1{
+        font-size: 10vw;
+        display: flex;
+        justify-self: center;
+    }
+    .project-box-1-text p{
+        font-size: 6vw;
+        text-align: justify;
+    }
+}
+@media (max-width: 500px) {
+    .project-div{
+        width: 100vw !important;
+        padding: 0;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        /* border-radius: 10px; */
+    }
+    .project-inner-div-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .project-inner-div-heading > h1{
+        width: 100%;
+        font-size: 20vw !important;
+        color: white;   
+    }
+    .project-inner-div-heading > p{
+        padding:0 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 6vw;
+        width: 90% !important;  
+    }
+
+    .project-boxes-1-layer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box-1{
+        margin-top: 20px;
+        width: 98vw !important;
+        height: auto;
+        padding:0 10px;
+        background-color: rgba(57, 57, 57, 0.162);
+        border-radius: 20px;
+        border: none;
+        outline:solid 1px rgb(92, 91, 91);
+    }
+    .project-box-1-profile{
+        border-radius: 20px;
+        height: 370px !important;
+    } 
+
+    .project-1-a{
+        font-size: .9rem !important;
+        padding: 7px 20px !important;
+    }
+
+    .project-1-a-visit{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .project-1-a-github{
+        position: absolute;
+        bottom: 20px;
+        left: 100px;
+    }
+    .project-1-a-arrow{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 12px;
+        transition: .5s;
+    }
+
+    .project-box-1-text h1{
+        font-size: 10vw;
+        display: flex;
+        justify-self: center;
+    }
+    .project-box-1-text p{
+        font-size: 6vw;
+        text-align: justify;
+    }
+}
+@media (max-width: 400px) {
+    .project-div{
+        width: 100vw !important;
+        padding: 0;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        /* border-radius: 10px; */
+    }
+    .project-inner-div-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .project-inner-div-heading > h1{
+        width: 100%;
+        font-size: 20vw !important;
+        color: white;   
+    }
+    .project-inner-div-heading > p{
+        padding:0 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 6vw;
+        width: 97% !important;  
+        text-align: right;
+    }
+
+    .project-boxes-1-layer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box-1{
+        margin-top: 20px;
+        width: 98vw !important;
+        height: auto;
+        padding:0 10px;
+        background-color: rgba(57, 57, 57, 0.162);
+        border-radius: 20px;
+        border: none;
+        outline:solid 1px rgb(92, 91, 91);
+    }
+    .project-box-1-profile{
+        border-radius: 20px;
+        height: 300px !important;
+    } 
+
+    .project-1-a{
+        font-size: .7rem !important;
+        padding: 7px 15px !important;
+    }
+
+    .project-1-a-visit{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .project-1-a-github{
+        position: absolute;
+        bottom: 20px;
+        left: 80px;
+    }
+    .project-1-a-arrow{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 12px;
+        transition: .5s;
+    }
+
+    .project-box-1-text h1{
+        font-size: 10vw;
+        display: flex;
+        justify-self: center;
+    }
+    .project-box-1-text p{
+        font-size: 6vw;
+        text-align: justify;
+    }
+}
+@media (max-width: 350px) {
+    .project-div{
+        width: 100vw !important;
+        padding: 0;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        /* border-radius: 10px; */
+    }
+    .project-inner-div-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .project-inner-div-heading > h1{
+        width: 100%;
+        font-size: 20vw !important;
+        color: white;   
+    }
+    .project-inner-div-heading > p{
+        padding:0 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 6vw;
+        width: 97% !important;
+        text-align: right !important;
+    }
+
+    .project-boxes-1-layer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box-1{
+        margin-top: 20px;
+        width: 98vw !important;
+        height: 550px;
+        padding:0 10px;
+        background-color: rgba(57, 57, 57, 0.162);
+        border-radius: 20px;
+        border: none;
+        outline:solid 1px rgb(92, 91, 91);
+    }
+    .project-box-1-profile{
+        border-radius: 20px;
+
+    }
+
+    .project-1-a{
+        font-size: .7rem !important;
+        padding: 7px 15px !important;
+    }
+
+    .project-1-a-visit{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .project-1-a-github{
+        position: absolute;
+        bottom: 20px;
+        left: 80px;
+    }
+    .project-1-a-arrow{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 12px;
+        transition: .5s;
+    }
+
+    .project-box-1-text h1{
+        font-size: 10vw;
+        display: flex;
+        justify-self: center;
+    }
+    .project-box-1-text p{
+        font-size: 6vw;
+        text-align: justify;
+    }
+}
 @media (max-width: 320px) {
     .project-div{
         width: 100vw !important;
@@ -178,7 +938,7 @@
         margin-top: 5px;
         margin-bottom: 20px;
         font-size: 6vw;
-        /* max-width: 350px;   */
+        width: 98% !important;  
         text-align: right;
     }
 
